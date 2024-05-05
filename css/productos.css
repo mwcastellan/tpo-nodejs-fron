@@ -1,0 +1,38 @@
+/* productos  */
+.productos_accesorios {
+    width: 800px;
+    background-color:aqua;
+    overflow: hidden;
+    float: left;
+}
+.Productos {
+    width: 800px;
+    background-color: #ffe600;
+    overflow: hidden;
+    float: left;
+}
+.Productos img{
+    width: 100%;
+}
+
+.Producto{
+    width: 380px;
+    margin: 10px 10px 20px 10px;
+    float: left;
+  /*   border:1px solid red */
+}
+
+.Producto img {
+width: 50%;
+}
+
+.Producto h2 {
+    margin: 10px 0;
+}
+
+.Producto a{
+    background-color:#2968c8 ;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
