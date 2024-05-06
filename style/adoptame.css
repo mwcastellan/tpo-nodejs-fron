@@ -53,14 +53,17 @@ li a.active{
 }
 
 
-/*  */
+/*  imagenes */
+div{
+    margin: 75px auto;
+}
 .imagen img{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%; 
-    width: 25%;
+    width: 33%;
     height: auto;
 
 }
@@ -69,6 +72,9 @@ li a.active{
 .requisitos{
     background-color: rgb(233, 215, 186);
     padding: 10px;
+}
+.requisitos-art{
+    height: 100vh;
 }
 
 /*  */
