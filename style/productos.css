@@ -1,10 +1,10 @@
 /* productos.css - Version 1.0.1 */
 
 /* general */
-* {
+/** {
   box-sizing: border-box;
   margin: 0.5rem auto;
-}
+}*/
 
 .clipped {
   border: 0;
@@ -19,25 +19,28 @@
   padding: 0;
 }
 
-body {
+/*body {
   background-color: white;
   margin: 0.5rem;
-  font-family: "Tahoma", 'Courier New';
+  font-family: "Arial", "Courier New";
   font-weight: 400;
   font-style: normal;
-  font-size:small;
-}
+  font-size: small;
+}*/
 
-footer {
+/*footer {
   margin: 0.5rem;
   padding: 0.5rem;
   float: left;
-}
+}*
 
 /* Productos  */
 .Productos_Grupo_General {
   margin: 0.5rem;
   padding: 0.5rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
 }
 
 .Productos_Grupo_Particular {
@@ -71,6 +74,10 @@ footer {
   display: grid;
   margin: 0;
   padding: 0.5rem;
+
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
 }
 
 .grid-item {
@@ -87,14 +94,7 @@ footer {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: min-content;
-    .Productos_Grupo_General img {
-      width: 400px;
-    }
-    .Productos_Grupo_Particular img {
-      width: 400px;
-    }
   }
- 
 }
 
 /* Small devices (600px and up) */
@@ -102,29 +102,29 @@ footer {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
-}
   }
+}
 
 /* Medium devices (768px and up) */
 @media only screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
-}
   }
+}
 
 /* Large devices (992px and up) */
 @media only screen and (min-width: 992px) {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
-}
   }
+}
 
 /* Extra large devices (1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .grid-container { 
+  .grid-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
-}
   }
+}
