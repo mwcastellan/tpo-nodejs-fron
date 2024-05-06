@@ -6,6 +6,19 @@
   margin: 0.5rem auto;
 }
 
+.clipped {
+  border: 0;
+  position: absolute;
+  z-index: -1;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  display: block;
+  margin: 0 -1px -1px 0;
+  overflow: hidden;
+  padding: 0;
+}
+
 body {
   background-color: white;
   margin: 0.5rem;
