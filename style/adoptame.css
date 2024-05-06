@@ -53,14 +53,17 @@ li a.active{
 }
 
 
-/*  */
+/*  imagenes */
+div{
+    margin: 75px auto;
+}
 .imagen img{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%; 
-    width: 25%;
+    width: 33%;
     height: auto;
 
 }
@@ -69,6 +72,24 @@ li a.active{
 .requisitos{
     background-color: rgb(233, 215, 186);
     padding: 10px;
+}
+.requisitos-art{
+    height: 100vh;
+}
+
+.btn{
+    background-color: rgb(4, 4, 173);
+    color: darkgrey;
+    border-radius: 15p;
+    -webkit-border-radius: 15p;
+    -moz-border-radius: 15p;
+    -ms-border-radius: 15p;
+    -o-border-radius: 15p;
+
+    display: block;
+    margin: 25px auto;
+    padding: 10px;
+    font-size: 18px;
 }
 
 /*  */
