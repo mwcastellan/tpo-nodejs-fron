@@ -38,7 +38,7 @@
 .grid-item {
   margin: 0.5rem;
   padding: 0.5rem;
-}
+} 
 
 .grid-item p:hover {
   font-style: italic;
