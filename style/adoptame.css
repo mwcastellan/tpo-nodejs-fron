@@ -116,3 +116,15 @@ div{
     padding: 10px;
 }
 
+
+@media (max-width:850px){
+    
+    .imagen img{
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        width: 70%;
+        height: auto;
+
+    }
+}
