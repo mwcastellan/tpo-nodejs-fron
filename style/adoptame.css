@@ -73,9 +73,10 @@ div{
     background-color: rgb(233, 215, 186);
     padding: 10px;
 }
-.requisitos-art{
+/* lo dejo comentado x que cuando achico la pantalla a menos de 392px de ancho se desborda.*/
+/* .requisitos-art{
     height: 100vh;
-}
+} */
 
 .btn{
     background-color: rgb(4, 4, 173);
