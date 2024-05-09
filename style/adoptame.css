@@ -119,7 +119,9 @@ div{
 
 
 @media (max-width:850px){
-    
+    main{
+        padding: 0;
+    }
     .imagen img{
         display: block;
         margin: 0 auto;
