@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(35, 35, 30);
+  color: beige;
+
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+.container-grid {
+  background-color: beige;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, auto);
+  /* gap: 10px; */
+}
+
+.container-grid > * {
+  background-color: rgb(35, 35, 30);
+  border: 1px solid beige;
+  color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+footer {
+  grid-column: 1 / 7;
+}
+
+main {
+  grid-column: 1/5;
+}
+
+
+aside {
+  grid-column: 5/7;
+  padding: 30px;
+}
+
+.Ubicacion {
+  grid-column: 1 / 5;
+  padding-inline-start: 10px;
+  padding: 15px;
+}
+
+.parrafo {
+  grid-column: 1 / 5;
+  padding-inline-start: 10px;
+  padding: 15px;
+}
+
+.mapa {
+  grid-column: 5 / 7;
+}
+
+.redes {
+  background-color: rgb(35, 35, 30);
+  text-align: justify;
+  font-size: 30px;
+}
+
+.redes a {
+  display: inline-block;
+  width: 40px;
+  line-height: 40px;
+}
+
+.contacto {
+  grid-column: 1 / 3;
+}
+
+.formu {
+  grid-column: 3 / 7;
+}
+
+.formulario {
+  display: grid;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1150px) {
+  main,
+  aside {
+    grid-column: 1 / 7;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Ubicacion {
+    grid-column: 1 / 7;
+  }
+
+  .mapa {
+    grid-column: 1 / 7;
+  }
+}
+
+/*=========================================*/
+
+input {
+  width: 430px;
+  height: 33px;
+  display: flexbox;
+  padding: 6px 6px;
+  margin-right: 10%;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 8px solid beige;
+  border-radius: 10px;
+  border-color: beige;
+  background-color: whitesmoke;
+  color: #818283;
+}
+
+input:focus {
+  outline: 3.5px solid rgb(36, 36, 88);
+}
+
+.weather {
+  padding-right: 1%;
+  width: 16rem;
+  height: 3rem;
+  border-radius: 60px;
+  display: flexbox;
+  margin-bottom: 10;
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: end;
+  justify-self: right;
+}
