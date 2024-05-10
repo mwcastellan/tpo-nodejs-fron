@@ -102,7 +102,7 @@ div{
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;  
+    padding: 5px;  
     text-align: center;
 
 }
@@ -115,8 +115,50 @@ div{
 
 .footer p{
     margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
+
+/* iconos footer */
+.social{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        padding: 16px;
+        gap: 8px;
+    }
+.social a{
+        width: 64px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: #ccc;
+        background-position: center;
+        background-size: 36px;
+        background-repeat: no-repeat;
+    }
+.social a:hover{
+        background-color: #eee;
+        background-size: 48px;
+        box-shadow: 0 2px 8px #eb08eb;
+    }
+
+.facebook{
+    background-image: url('../img/icon/facebook.svg');   
+  }
+.instagram{
+    background-image: url('../img/icon/instagram.svg');
+  }
+.twitter{
+    background-image: url('../img/icon/twitter.svg');
+  }
+.github{
+    background-image: url('../img/icon/github.svg');
+  }
+.youtube{
+    background-image: url('../img/icon/youtube.svg');
+  }
+.whatsapp{
+    background-image: url('../img/icon/whatsapp.svg');
+  }
 
 
 @media (max-width:850px){
