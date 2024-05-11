@@ -3,7 +3,7 @@ input {
     height: 40px;
     display: flexbox;
     padding: 6px 6px;
-    /* margin-right: 10% */;
+    /* margin-right: 10%; */
     font-size: 11px;
     text-align: center;
     text-decoration: none;
@@ -28,9 +28,11 @@ textarea {
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
+  border: 3px solid beige;
+  border-radius: 10px;
+  border-color: beige;
+  background-color: whitesmoke;
   font-size: 16px;
   resize:none;
+
 }
