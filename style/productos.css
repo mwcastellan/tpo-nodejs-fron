@@ -43,10 +43,11 @@
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 
-  display: inline-block;
+  display: block;
   margin: 10px 10px auto;
   padding: 10px;
   font-size: 15px;
+
 }
 
 .Productos_Grupo_General {
