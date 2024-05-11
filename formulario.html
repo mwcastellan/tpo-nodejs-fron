@@ -16,8 +16,76 @@
             <li><a class="active" href="formulario.html">Contacto</a></li>
         </ul>
     </nav>
+    
+    <!-- Formulario solicitud de turno  -->
+    <form action="" method="POST">
+        <fieldset>
+        <legend><h2>Turnos</h2></legend>
+            <label for="nombreDueño">Nombre y Apellido:</label>
+            <input type="text" id="nombreDueño" name="nombreDueño">
+        <br>
+        <br>
+        
+            <label for="nombreMascota">Nombre de la mascota:</label>
+            <input type="text" id="nombreMascota" name="nombreMascota">
+        <br>
+        <br>
+            <label for="mascotaTipo">Tipo de mascota:</label>
+            <select name="mascotaTipo" id="mascotaTipo">
+                <option>Gato</option>
+                <option>Perro</option>
+                <option>Canario</option>
+                <option>Exótico</option>
+            </select>
+        <br>
+        <br>
+            <label for="motivoTurno">Motivo del Turno:</label>
+            <input type="radio" name="motivoTurno" value="general" checked>Chequeo General
+            <input type="radio" name="motivoTurno" value="vacuna">Vacunas
+            <input type="radio" name="motivoTurno" value="cirugia">Revisión por Cirugía
+            <input type="radio" name="motivoTurno" value="otros">Otros
+        <br>
+        <br>
+            <label for="dia">Día del turno</label>
+            <input type="date" name="dia" id="dia"> 
+        <br>
+        <br>
+            <label for="horario">Horario</label>
+            <input type="time" name="horario" id="horario">
+        <br>
+        <br>
+            <input type="submit" value="Enviar" onclick="validarturnos()">
+            <input type="reset" value="Borrar">
+        
+        </fieldset>
+    </form>
 
+    <!-- Formulario contacto  -->
+    <form action="" method="POST">
+        <fieldset>
+            <legend><h2>Contactenos</h2></legend>
+            <label for="nombreCompleto">Nombre y Apellido</label>
+            <input type="text" id="nombreCompleto" name="nombreCompleto">
+        <br>
+        <br>
+            <label for="email">Mail</label>
+            <input type="email" id="email" name="email">
+        <br>
+        <br>
+            <label for="motivo">Asunto</label>
+            <input type="text" id="motivo" name="motivo">
+        <br>
+        <br>
+            <label for="text">Consulta</label>
+            <textarea name="comentario" id="comentario"  placeholder="Escriba su comentario..."></textarea>
+        <br>
+        <br>        
+            <input type="submit" value="Enviar" onclick="validarconsulta()">
+        </fieldset>
+    </form>
 
+<!-- Incluyendo funciones -->
+<script src="./js/funciones_formulario.js"></script>
     
 </body>
 </html>
