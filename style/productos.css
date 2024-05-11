@@ -16,6 +16,17 @@
   /* grid-item */
   margin: 0.5rem;
   padding: 0.5rem;
+  border: 1px solid rgb(200, 240, 240);
+  /* Flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+
+.Producto img {
+  width: 50%;
+  border-bottom: 1px solid rgb(200, 240, 240);
 }
 
 .Producto p:hover {
@@ -35,11 +46,6 @@
 .Productos_Grupo_Particular img {
   width: 60%;
 }
-
-.Producto img {
-  width: 50%;
-}
-
 
 /* Notas Pie */
 .Productos_Notas_containerGrid {
@@ -65,7 +71,7 @@
 /* Small devices (600px and up) */
 @media only screen and (min-width: 600px) {
   .Productos {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content;
   }
 }
@@ -73,7 +79,7 @@
 /* Medium devices (768px and up) */
 @media only screen and (min-width: 768px) {
   .Productos {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content;
   }
 }
