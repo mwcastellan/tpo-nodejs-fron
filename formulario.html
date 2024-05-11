@@ -22,12 +22,12 @@
         <fieldset>
         <legend><h2>Turnos</h2></legend>
             <label for="nombreDueño">Nombre y Apellido:</label>
-            <input type="text" id="nombreDueño" name="nombreDueño">
+            <input type="text" id="nombreDueño" name="nombreDueño" required>
         <br>
         <br>
         
             <label for="nombreMascota">Nombre de la mascota:</label>
-            <input type="text" id="nombreMascota" name="nombreMascota">
+            <input type="text" id="nombreMascota" name="nombreMascota" required>
         <br>
         <br>
             <label for="mascotaTipo">Tipo de mascota:</label>
@@ -47,11 +47,11 @@
             <input id="radioMotivo" type="radio" name="motivoTurno" value="otros">Otros
         <br>
             <label for="dia">Día del turno</label>
-            <input type="date" name="dia" id="dia"> 
+            <input type="date" name="dia" id="dia" required> 
         <br>
         <br>
             <label for="horario">Horario</label>
-            <input type="time" name="horario" id="horario">
+            <input type="time" name="horario" id="horario" required>
         <br>
         <br>
             <input type="submit" value="Enviar" onclick="validarturnos()">
@@ -64,19 +64,19 @@
         <fieldset>
             <legend><h2>Contactenos</h2></legend>
             <label for="nombreCompleto">Nombre y Apellido</label>
-            <input type="text" id="nombreCompleto" name="nombreCompleto">
+            <input type="text" id="nombreCompleto" name="nombreCompleto" required>
             <br>
             <br>
             <label for="email">Mail</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
             <br>
             <br>
             <label for="motivo">Asunto</label>
-            <input type="text" id="motivo" name="motivo">
+            <input type="text" id="motivo" name="motivo" required>
             <br>
             <br>
             <label for="text">Consulta</label>
-            <textarea name="comentario" id="comentario"  placeholder="Escriba su comentario..."></textarea>
+            <textarea name="comentario" id="comentario"  placeholder="Escriba su comentario..." required></textarea>
             <br>
             <br>        
             <input type="submit" value="Enviar" onclick="validarconsulta()">
