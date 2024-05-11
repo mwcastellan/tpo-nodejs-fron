@@ -1,2 +1,56 @@
 @import url(./adoptame.css);
 @import url(./productos.css);
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+main{
+    max-width: 960px;
+    margin: 16px auto;
+    padding: 16px;
+    
+  }
+/* nav bar */
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.nav-bar{
+    background-color: rgb(200, 240, 240);
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.nav-bar li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+    
+}
+a{
+    text-decoration: none;
+    /* padding: 20px; */
+    
+}
+.nav-bar  li:hover:not(.active){
+    background-color: rgb(230, 215, 215);
+}
+
+
+li a.active{
+    /* background-color: blueviolet; */
+    color: rgb(227, 152, 152);
+    
+}
