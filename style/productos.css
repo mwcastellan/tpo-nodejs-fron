@@ -14,6 +14,7 @@
 
 .Producto {
   /* grid-item */
+  /* Cada producto es un Flex */
   margin: 0.5rem;
   padding: 0.5rem;
   border: 1px solid rgb(200, 240, 240);
@@ -21,7 +22,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
 }
 
 .Producto img {
@@ -32,6 +32,21 @@
 .Producto p:hover {
   font-style: italic;
   background-color: azure;
+}
+
+.Producto_btn {
+  background-color: rgb(4, 4, 173);
+  color: darkgrey;
+  border-radius: 15p;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+
+  display: inline-block;
+  margin: 10px 10px auto;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .Productos_Grupo_General {
@@ -63,7 +78,7 @@
 /* Small devices (600px and down) */
 @media only screen and (max-width: 600px) {
   .Productos {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content;
   }
 }
