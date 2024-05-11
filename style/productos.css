@@ -25,8 +25,15 @@
 }
 
 .Producto img {
-  width: 50%;
-  border-bottom: 1px solid rgb(200, 240, 240);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; 
+  width: 30%;
+  height: auto;
+  padding: 0 10px;
+  border: 1px solid rgb(200, 240, 240);
 }
 
 .Producto p:hover {
@@ -47,7 +54,6 @@
   margin: 10px 10px auto;
   padding: 10px;
   font-size: 15px;
-
 }
 
 .Productos_Grupo_General {
