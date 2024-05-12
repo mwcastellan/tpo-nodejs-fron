@@ -18,10 +18,12 @@ function validarconsulta() {
     let validaEmail = document.getElementById("email").value;
     let validaAsunto = document.getElementById("motivo").value;
     let validaConsulta = document.getElementById("comentario").value;
-
+        
     if (validaNombre == "" || validaEmail == "" || validaAsunto == "" || validaConsulta == "" ) {
         alert("Un campo esta vacio, favor de completar");
-    } else {
-        alert("Consulta enviada");
-    }
+    } else if ( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(validaEmail)) ) {
+        alert("Escriba un mail válido");
+        } else {
+            alert("Consulta enviada");
+}
 }
