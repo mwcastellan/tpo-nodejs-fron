@@ -1,42 +1,53 @@
-input {
-    width: 100px;
-    height: 40px;
-    display: flexbox;
-    padding: 6px 6px;
-    /* margin-right: 10%; */
-    font-size: 11px;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    border: 3px solid beige;
-    border-radius: 10px;
-    border-color: beige;
-    background-color: whitesmoke;
-    color: black;
-  }
+.FormularioFieldset {
+  border: 1px solid rgb(200, 240, 240);
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
 
-#motivoTurno0{
+.FormularioFieldset h2 {
+  font-weight: bold;
+  font-size:x-large;
+}
+
+input {
+  width: 100px;
+  height: 40px;
+  display: flexbox;
+  padding: 6px 6px;
+  /* margin-right: 10%; */
+  font-size: 11px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 3px solid beige;
+  border-radius: 10px;
+  border-color: beige;
+  background-color: whitesmoke;
+  color: black;
+}
+
+#motivoTurno0 {
   color: aquamarine;
   width: 30px;
   height: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#motivoTurno1{
+#motivoTurno1 {
   color: aquamarine;
   width: 30px;
   height: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#motivoTurno2{
+#motivoTurno2 {
   color: aquamarine;
   width: 30px;
   height: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#motivoTurno3{
+#motivoTurno3 {
   color: aquamarine;
   width: 30px;
   height: 15px;
@@ -54,6 +65,5 @@ textarea {
   border-color: beige;
   background-color: whitesmoke;
   font-size: 16px;
-  resize:none;
-
+  resize: none;
 }

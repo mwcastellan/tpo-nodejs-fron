@@ -1,128 +1,248 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veterinaria</title>
+    <link rel="icon" href="img/icon/favicon_II.ico" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/default.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/default.css">
+  <body>
+    <div>
+      <!-- Menu Hamburguesa con bootstrap -->
+      <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
+      <nav class="navbar navbar-expand-sm navbar-dark nav-bar">
+        <div class="container-fluid">
+          <h1>Veterinaria Grupo 9</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div></div>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="index.html"
+                  style="font-size: 16px; color: black"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="productos.html"
+                  style="font-size: 16px; color: black"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="adoptame.html"
+                  style="font-size: 16px; color: black"
+                  >Adoptame</a
+                >
+              </li>
 
-</head>
-
-<body>
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="adoptame.html">Adoptá</a></li>
-            <li><a class="active" href="formulario.html">Contacto</a></li>
-        </ul>
-    </nav>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="index.html#Ubicacion"
+                  style="font-size: 16px; color: black"
+                  >Ubicación</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="formulario.html"
+                  style="font-size: 16px; color: black"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     <main>
-    <!-- Formulario solicitud de turno  -->
-    <form action="" method="POST">
-        <fieldset>
-        <legend><h2>Turnos</h2></legend>
-            <label for="nombreDueño">Nombre y Apellido:</label>
-            <input type="text" id="nombreDueño" name="nombreDueño" required>
-        <br>
-        <br>
-        
-            <label for="nombreMascota">Nombre de la mascota:</label>
-            <input type="text" id="nombreMascota" name="nombreMascota" required>
-        <br>
-        <br>
-            <label for="mascotaTipo">Tipo de mascota:</label>
-            <select name="mascotaTipo" id="mascotaTipo">
-                <option>Gato</option>
-                <option>Perro</option>
-                <option>Canario</option>
-                <option>Exótico</option>
-            </select>
-        <br>
-        <br>
-            <p style="margin: 0px auto; ">Motivo del Turno:</p>
-            <label for="motivoTurno0"></label>
-            <input id="motivoTurno0" type="radio" name="motivoTurno0" value="general" checked>Chequeo General
-            <label for="motivoTurno1"></label>
-            <input id="motivoTurno1" type="radio" name="motivoTurno1" value="vacuna">Vacunas
-            <label for="motivoTurno2"></label>
-            <input id="motivoTurno2" type="radio" name="motivoTurno2" value="cirugia">Revisión por Cirugía
-            <label for="motivoTurno3"></label>
-            <input id="motivoTurno3" type="radio" name="motivoTurno3" value="otros">Otros
-        <br>
-            <label for="dia">Día del turno</label>
-            <input type="date" name="dia" id="dia" required> 
-        <br>
-        <br>
-            <label for="horario">Horario</label>
-            <input type="time" name="horario" id="horario" required>
-        <br>
-        <br>
-            <input type="submit" value="Enviar" onclick="validarturnos()">
-            <input type="reset" value="Borrar">
-        
+      <!-- Formulario solicitud de turno  -->
+      <form action="/formulario.php" method="POST">
+        <fieldset class="FormularioFieldset">
+          <legend><h2>Turnos</h2></legend>
+          <label for="nombreDueño">Nombre y Apellido:</label>
+          <input type="text" id="nombreDueño" name="nombreDueño" required />
+          <br />
+          <br />
+
+          <label for="nombreMascota">Nombre de la mascota:</label>
+          <input type="text" id="nombreMascota" name="nombreMascota" required />
+          <br />
+          <br />
+          <label for="mascotaTipo">Tipo de mascota:</label>
+          <select name="mascotaTipo" id="mascotaTipo">
+            <option>Gato</option>
+            <option>Perro</option>
+            <option>Canario</option>
+            <option>Exótico</option>
+          </select>
+          <br />
+          <br />
+          <p style="margin: 0px auto">Motivo del Turno:</p>
+          <label for="motivoTurno0"></label>
+          <input
+            id="motivoTurno0"
+            type="radio"
+            name="motivoTurno0"
+            value="general"
+            checked
+          />Chequeo General
+          <label for="motivoTurno1"></label>
+          <input
+            id="motivoTurno1"
+            type="radio"
+            name="motivoTurno1"
+            value="vacuna"
+          />Vacunas
+          <label for="motivoTurno2"></label>
+          <input
+            id="motivoTurno2"
+            type="radio"
+            name="motivoTurno2"
+            value="cirugia"
+          />Revisión por Cirugía
+          <label for="motivoTurno3"></label>
+          <input
+            id="motivoTurno3"
+            type="radio"
+            name="motivoTurno3"
+            value="otros"
+          />Otros
+          <br />
+          <label for="dia">Día del turno</label>
+          <input type="date" name="dia" id="dia" required />
+          <br />
+          <br />
+          <label for="horario">Horario</label>
+          <input type="time" name="horario" id="horario" required />
+          <br />
+          <br />
+          <input type="submit" value="Enviar" onclick="validarturnos()" />
+          <input type="reset" value="Borrar" />
         </fieldset>
-    </form>
-    <!-- Formulario contacto  -->
-    <form action="" method="POST">
-        <fieldset>
-            <legend><h2>Contactenos</h2></legend>
-            <label for="nombreCompleto">Nombre y Apellido</label>
-            <input type="text" id="nombreCompleto" name="nombreCompleto" required>
-            <br>
-            <br>
-            <label for="email">Mail</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <br>
-            <label for="motivo">Asunto</label>
-            <input type="text" id="motivo" name="motivo" required>
-            <br>
-            <br>
-            <label for="comentario">Consulta</label>
-            <textarea name="comentario" id="comentario"  placeholder="Escriba su comentario..." required></textarea>
-            <br>
-            <br>        
-            <input type="submit" value="Enviar" onclick="validarconsulta()">
+        <br />
+        <br />
+      </form>
+      <!-- Formulario contacto  -->
+      <form action="/formulario.php" method="POST">
+        <fieldset class="FormularioFieldset">
+          <legend><h2>Contactenos</h2></legend>
+          <label for="nombreCompleto">Nombre y Apellido</label>
+          <input
+            type="text"
+            id="nombreCompleto"
+            name="nombreCompleto"
+            required
+          />
+          <br />
+          <br />
+          <label for="email">Mail</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <br />
+          <label for="motivo">Asunto</label>
+          <input type="text" id="motivo" name="motivo" required />
+          <br />
+          <br />
+          <label for="comentario">Consulta</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="Escriba su comentario..."
+            required
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" value="Enviar" onclick="validarconsulta()" />
         </fieldset>
-    </form>
-    
-</main>
-<!-- Pie de pagina -->
-<footer class="footer">
-        
-      
-    <div class="social">
-      <a class="facebook" 
-          href="https://facebook.com" 
+      </form>
+    </main>
+    <!-- Pie de pagina -->
+    <footer class="footer">
+      <div class="social">
+        <a
+          class="facebook"
+          href="https://facebook.com"
           title="Seguinos en Facebook"
-          target="_blank">
-      </a>
-      <a class="instagram" 
-          href="https://instagram.com" 
+          target="_blank"
+        >
+        </a>
+        <a
+          class="instagram"
+          href="https://instagram.com"
           title="Seguinos en Instagram"
-          target="_blank">
-      </a>
-      <a class="github" 
-          href="https://github.com/mwcastellan/tpo_nodejs_fron/tree/main" 
+          target="_blank"
+        >
+        </a>
+        <a
+          class="github"
+          href="https://github.com/mwcastellan/tpo_nodejs_fron/tree/main"
           title="Clona el repositorio en github"
-          target="_blank">
-      </a>
-      <a class="whatsapp" 
-          href="https://api.whatsapp.com/send?phone=110303456&text=Buenos%20dias,%20mi%20consulta%20es..." 
+          target="_blank"
+        >
+        </a>
+        <a
+          class="whatsapp"
+          href="https://api.whatsapp.com/send?phone=110303456&text=Buenos%20dias,%20mi%20consulta%20es..."
           title="Mensajeanos por Whatsapp"
-          target="_blank">
-      </a>
-  </div>
-  
-  <p class="footer"> &copy; 2024 derechos reservados</p>
-  </footer>
+          target="_blank"
+        >
+        </a>
+      </div>
+
+      <p class="footer">&copy; 2024 derechos reservados</p>
+    </footer>
 
     <!-- Incluyendo funciones -->
     <script src="./js/funciones_formulario.js"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
 </html>
