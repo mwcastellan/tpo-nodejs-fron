@@ -15,7 +15,28 @@ input {
     color: black;
   }
 
-#radioMotivo{
+#motivoTurno0{
+  color: aquamarine;
+  width: 30px;
+  height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#motivoTurno1{
+  color: aquamarine;
+  width: 30px;
+  height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#motivoTurno2{
+  color: aquamarine;
+  width: 30px;
+  height: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#motivoTurno3{
   color: aquamarine;
   width: 30px;
   height: 15px;
