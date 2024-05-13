@@ -8,16 +8,26 @@
     box-sizing: border-box;
 }
 
+
 body{
     overflow: scroll;
     overflow-x: hidden;
+    color: black; 
+    font-family: "Poppins", sans-serif;
 }
+
 main{
     max-width: 960px;
     margin: 16px auto;
     padding: 16px;
     
-  }
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Raleway", sans-serif;
+}
 /* nav bar */
 nav{
     position: sticky;
