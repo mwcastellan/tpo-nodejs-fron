@@ -2,26 +2,110 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos</title>
-    <link rel="stylesheet" href="./style/default.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/default.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script
       src="https://kit.fontawesome.com/f6e9d1fe5c.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
   </head>
 
   <body>
-    <nav>
-      <ul class="nav-bar">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a class="active" href="productos.html">Productos</a></li>
-        <li><a href="adoptame.html">Adoptá</a></li>
-        <li><a href="formulario.html">Contacto</a></li>
-      </ul>
-    </nav>
+    <header>
+      <div>
+        <!-- Menu Hamburguesa con bootstrap -->
+        <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
+        <nav class="navbar navbar-expand-sm navbar-dark nav-bar">
+          <div class="container-fluid">
+            <h1>Veterinaria Grupo 9</h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div></div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="index.html"
+                    style="font-size: 16px; color: black"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="productos.html"
+                    style="font-size: 16px; color: black"
+                    >Productos</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="adoptame.html"
+                    style="font-size: 16px; color: black"
+                    >Adoptame</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="index.html#Ubicacion"
+                    style="font-size: 16px; color: black"
+                    >Ubicación</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="formulario.html"
+                    style="font-size: 16px; color: black"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
     <main>
       <section class="Productos_Grupo_General">
@@ -50,7 +134,7 @@
               La cama con colchón Dogit es ideal para aquellos perros a los que
               les encanta estirarse y tumbarse con total comodidad.
             </p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -58,10 +142,10 @@
             <img
               src="img/productos/Productos_Accesorios_13_1.jpeg"
               alt="Productos_Accesorios_Camas"
-            >
+            />
             <p>$29.984,00</p>
             <p>Cama para Ventana Zootec Gato</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -69,13 +153,13 @@
             <img
               src="img/productos/Productos_Accesorios_14_1.jpeg"
               alt="Productos_Accesorios_Camas"
-            >
+            />
             <p>$24.700,00</p>
             <p>
               Puff para gatos con rascador relleno con vellón siliconado y
               almohadon desmontable. 55cm de diámetro.
             </p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
 
@@ -83,7 +167,7 @@
           <img
             src="img/productos/Productos_Accesorios_Comederos-y-bebederos.jpg"
             alt="Productos_Accesorios_Comederos-y-bebederos"
-          >
+          />
           <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
         </section>
         <section class="Productos grid-container">
@@ -93,10 +177,10 @@
             <img
               src="img/productos/Productos_Accesorios_2_1.jpeg"
               alt="Productos_Accesorios_Comederos-y-bebederos"
-            >
+            />
             <p>$5.303,00</p>
             <p>Millex Comedero Inoxidable</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -104,10 +188,10 @@
             <img
               src="img/productos/Productos_Accesorios_3_1.jpeg"
               alt="Productos_Accesorios_Comederos-y-bebederos"
-            >
+            />
             <p>$5.538,00</p>
             <p>Millex Comedero Standard</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -115,10 +199,10 @@
             <img
               src="img/productos/Productos_Accesorios_4_1.jpeg"
               alt="Productos_Accesorios_Comederos-y-bebederos"
-            >
+            />
             <p>$4.066,00</p>
             <p>Comelento Huella Pequeño</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -126,10 +210,10 @@
             <img
               src="img/productos/Productos_Accesorios_5_1.jpeg"
               alt="Productos_Accesorios_Comederos-y-bebederos"
-            >
+            />
             <p>$18.245,00</p>
             <p>Bebedero Dispenser Automático</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
 
@@ -154,7 +238,7 @@
               para adaptarse a la forma única de su perro y no más levantamiento
               de piernas! Resistente al agua.
             </p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -169,7 +253,7 @@
               sujetación, elástico para piernas e impresión en serigrafía. Hecho
               65% en polyester nylon y 35% en algodón.
             </p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
       </section>
@@ -197,7 +281,7 @@
             />
             <p>$8.492,00</p>
             <p>Can Cat Peine de Acero.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -208,7 +292,7 @@
             />
             <p>$8.040,00</p>
             <p>Cardina con Botón.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
 
@@ -233,7 +317,7 @@
               de pieles ya que conserva la humedad sin engrasar la piel lo que
               favorece el mantenimiento de una piel sana.
             </p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -244,7 +328,7 @@
             />
             <p>$7.619,00</p>
             <p>Pulguicida con amplia efectividad.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
       </section>
@@ -269,7 +353,7 @@
             />
             <p>$2.884,00</p>
             <p>Cholitas 500 Grs.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -280,7 +364,7 @@
             />
             <p>$2.132,00</p>
             <p>Barras ideales para tus mascotas.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
 
@@ -301,7 +385,7 @@
             />
             <p>$1.293,00</p>
             <p>Golocan Boc JamQuesEsp x 100g.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
 
           <article class="Producto grid-item">
@@ -312,7 +396,7 @@
             />
             <p>$5.579,00</p>
             <p>Golocan Bocaditos Tradicionales.</p>
-            <a class="btn Producto_btn" href="">Añadir al carrito</a>
+            <a class="Producto_btn" href="">Añadir al carrito</a>
           </article>
         </section>
       </section>
@@ -381,5 +465,12 @@
 
       <p class="footer">&copy; 2024 derechos reservados</p>
     </footer>
+    <script src="./js/formspree.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

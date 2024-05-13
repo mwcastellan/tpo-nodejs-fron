@@ -28,7 +28,7 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  -o-border-radius: 50%; 
+  -o-border-radius: 50%;
   width: 30%;
   height: auto;
   padding: 0 10px;
@@ -41,7 +41,15 @@
 }
 
 .Producto_btn {
+  background-color: rgb(4, 4, 173);
+  color: darkgrey;
+  border-radius: 15p;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
   display: block;
+  text-align: center;
   margin: 10px 10px auto;
   padding: 10px;
   font-size: 15px;
@@ -107,7 +115,7 @@
 
 /* Extra large devices (1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .Productos {font-size: 25px;
+  .Productos {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
   }
