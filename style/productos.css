@@ -36,7 +36,8 @@
 }
 
 .Producto h4{
-  font-size:large;
+  font-weight: bold;
+  font-size: large;
 }
 .Producto p:hover {
   font-style: italic;
