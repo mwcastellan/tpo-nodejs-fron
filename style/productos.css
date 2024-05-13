@@ -35,6 +35,9 @@
   border: 1px solid rgb(200, 240, 240);
 }
 
+.Producto h4{
+  font-size:large;
+}
 .Producto p:hover {
   font-style: italic;
   background-color: azure;
