@@ -26,7 +26,7 @@ div.imagen{
     height: 100vh;
 } */
 
-.btn{
+.btn-cris{
     background-color: rgb(4, 4, 173);
     color: darkgrey;
     border-radius: 15p;
@@ -41,6 +41,7 @@ div.imagen{
     margin: 25px auto;
     padding: 10px;
     font-size: 15px;
+    text-decoration: none;
 }
 .center {
     margin: auto;
