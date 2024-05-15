@@ -3,65 +3,63 @@
 @import url(./index.css);
 @import url(./formulario.css);
 
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
-body{
-    overflow: scroll;
-    overflow-x: hidden;
-    color: black; 
-    font-family: "Poppins", sans-serif;
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+  color: black;
+  font-family: "Poppins", sans-serif;
 }
 
-main{
-    max-width: 960px;
-    margin: 16px auto;
-    padding: 16px;
-    
+main {
+  max-width: 960px;
+  margin: 16px auto;
+  padding: 16px;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 /* nav bar */
-nav{
-    position: sticky;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
+nav {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
-.nav-bar{
-    background-color: rgb(200, 240, 240);
-    text-align: center;
-    list-style-type: none;
-    
+.nav-bar {
+  background-color: rgb(200, 240, 240);
+  text-align: center;
+  list-style-type: none;
 }
 
 .nav-bar li {
-    display: inline-block;
+  /* display: inline-block;
     font-size: 20px;
-    padding: 20px;
-    
-    
-}
-a{
-    text-decoration: none;
-    /* padding: 20px; */
-    
-}
-.nav-bar  li:hover:not(.active){
-    background-color: rgb(230, 215, 215);
+    padding: 20px;*/
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  left: auto;
+  position: relative;
+  font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+  /* padding: 20px; */
+}
+.nav-bar li:hover:not(.active) {
+  background-color: rgb(230, 215, 215);
+}
 
-li a.active{
-    /* background-color: blueviolet; */
-    color: rgb(227, 152, 152);
-    
+li a.active {
+  /* background-color: blueviolet; */
+  color: rgb(227, 152, 152);
 }

@@ -1,474 +1,336 @@
 <!-- productos.html -->
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Veterinaria</title>
-    <link rel="icon" href="img/icon/favicon_II.ico" />
-    <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- GoogleFonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@200;300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style/default.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/f6e9d1fe5c.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <header>
-      <div>
-        <!-- Menu Hamburguesa con bootstrap -->
-        <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
-        <nav class="navbar navbar-expand-sm navbar-dark nav-bar">
-          <div class="container-fluid">
-            <h1>Veterinaria Grupo 9</h1>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#mynavbar"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div></div>
-            <div class="collapse navbar-collapse" id="mynavbar">
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="index.html"
-                    style="font-size: 16px; color: black"
-                    >Inicio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="productos.html"
-                    style="font-size: 16px; color: black"
-                    >Productos</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="adoptame.html"
-                    style="font-size: 16px; color: black"
-                    >Adoptame</a
-                  >
-                </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veterinaria</title>
+  <link rel="icon" href="img/icon/favicon_II.ico" />
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@200;300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style/default.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  <script src="https://kit.fontawesome.com/f6e9d1fe5c.js" crossorigin="anonymous"></script>
+</head>
 
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="index.html#Ubicacion"
-                    style="font-size: 16px; color: black"
-                    >Ubicación</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="formulario.html"
-                    style="font-size: 16px; color: black"
-                    >Contacto</a
-                  >
-                </li>
-              </ul>
-            </div>
+<body>
+  <header>
+    <div>
+      <!-- Menu Hamburguesa con bootstrap -->
+      <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
+      <nav class="navbar navbar-expand-sm navbar-light nav-bar">
+        <div class="container-fluid">
+          <h2>Veterinaria Grupo 9</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div></div>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="font-size:medium; color: black">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html" style="font-size:medium; color: black">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adoptame.html" style="font-size: medium; color: black">Adoptame</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#Ubicacion" style="font-size:  medium; color: black">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html" style="font-size:  medium; color: black">Contacto</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-      <section class="Productos_Grupo_General">
-        <img
-          src="img/productos/Productos_Accesorios.jpg"
-          alt="Productos_Accesorios"
-        />
-        <h2 class="Productos_Clipped">Productos_Grupo_General</h2>
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Accesorios_Camas.jpg"
-            alt="Productos_Accesorios_Camas"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>Dogit Cama Rectangular Gris/Blanca 60x51x23</h4>
-            <img
-              src="img/productos/Productos_Accesorios_1_1.jpeg"
-              alt="Productos_Accesorios_Camas"
-            />
-            <p>$83.906,00</p>
-            <p>
-              La cama con colchón Dogit es ideal para aquellos perros a los que
-              les encanta estirarse y tumbarse con total comodidad.
-            </p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Cama para Ventana Zootec Gato</h4>
-            <img
-              src="img/productos/Productos_Accesorios_13_1.jpeg"
-              alt="Productos_Accesorios_Camas"
-            />
-            <p>$29.984,00</p>
-            <p>Cama para Ventana Zootec Gato</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Puff Con Rascador de Gato</h4>
-            <img
-              src="img/productos/Productos_Accesorios_14_1.jpeg"
-              alt="Productos_Accesorios_Camas"
-            />
-            <p>$24.700,00</p>
-            <p>
-              Puff para gatos con rascador relleno con vellón siliconado y
-              almohadon desmontable. 55cm de diámetro.
-            </p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
-
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Accesorios_Comederos-y-bebederos.jpg"
-            alt="Productos_Accesorios_Comederos-y-bebederos"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>Millex Comedero Inoxidable N° 2</h4>
-            <img
-              src="img/productos/Productos_Accesorios_2_1.jpeg"
-              alt="Productos_Accesorios_Comederos-y-bebederos"
-            />
-            <p>$5.303,00</p>
-            <p>Millex Comedero Inoxidable</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Millex Comedero Standard</h4>
-            <img
-              src="img/productos/Productos_Accesorios_3_1.jpeg"
-              alt="Productos_Accesorios_Comederos-y-bebederos"
-            />
-            <p>$5.538,00</p>
-            <p>Millex Comedero Standard</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Comelento Huella Pequeño</h4>
-            <img
-              src="img/productos/Productos_Accesorios_4_1.jpeg"
-              alt="Productos_Accesorios_Comederos-y-bebederos"
-            />
-            <p>$4.066,00</p>
-            <p>Comelento Huella Pequeño</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Bebedero Dispenser Automático Portátil Con Comedero</h4>
-            <img
-              src="img/productos/Productos_Accesorios_5_1.jpeg"
-              alt="Productos_Accesorios_Comederos-y-bebederos"
-            />
-            <p>$18.245,00</p>
-            <p>Bebedero Dispenser Automático</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
-
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Accesorios_Indumentaria.jpg"
-            alt="Productos_accesorios_perros-indumentaria"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>GF Pets Patrol Puffer-Negra | L</h4>
-            <img
-              src="img/productos/Productos_Accesorios_11_1.jpeg"
-              alt="Productos_accesorios_perros-indumentaria"
-            />
-            <p>$20.475,00</p>
-            <p>
-              Esta chaqueta GF PET cuenta con tecnología Elastofit. ¡Se expande
-              para adaptarse a la forma única de su perro y no más levantamiento
-              de piernas! Resistente al agua.
-            </p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Dixon Marvel Canguro</h4>
-            <img
-              src="img/productos/Productos_Accesorios_12_1.jpeg"
-              alt="Productos_accesorios_perros-indumentaria"
-            />
-            <p>$12.544,00</p>
-            <p>
-              Puños elásticos para mejor ajuste, triple veltro para mayor
-              sujetación, elástico para piernas e impresión en serigrafía. Hecho
-              65% en polyester nylon y 35% en algodón.
-            </p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
+  <main>
+    <section class="Productos_Grupo_General">
+      <img src="img/productos/Productos_Accesorios.jpg" alt="Productos_Accesorios" />
+      <h2 class="Productos_Clipped">Productos_Grupo_General</h2>
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Accesorios_Camas.jpg" alt="Productos_Accesorios_Camas" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
       </section>
-
-      <section class="Productos_Grupo_General">
-        <img
-          src="img/productos/Productos_Estetica_Higiene.jpg"
-          alt="Productos_Estetica_Higiene"
-        />
-        <h2 class="Productos_Clipped">Productos_Grupo_General</h2>
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Estetica_Higiene-cardina-cepillos-guantes.jpg"
-            alt="productos_estetica-higiene_perros-cardina-cepillos-guantes"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>Can Cat Peine de Acero</h4>
-            <img
-              src="img/productos/Productos_Estetica_Higiene_1_1.jpeg"
-              alt="productos_estetica-higiene_perros-cardina-cepillos-guantes"
-            />
-            <p>$8.492,00</p>
-            <p>Can Cat Peine de Acero.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Cardina con Botón c/Acc Trimmer</h4>
-            <img
-              src="img/productos/Productos_Estetica_Higiene_2_1.jpeg"
-              alt="productos_estetica-higiene_perros-cardina-cepillos-guantes"
-            />
-            <p>$8.040,00</p>
-            <p>Cardina con Botón.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
-
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Estetica_Higiene_shampoo.jpg"
-            alt="Productos_Estetica_Higiene_shampoo"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>Muñoz Shampoo Osspret Aloe-Avena x 250 ml.</h4>
-            <img
-              src="img/productos/Productos_Estetica_Higiene_3_1.jpeg"
-              alt="Productos_Estetica_Higiene_shampoo"
-            />
-            <p>$7.510,00</p>
-            <p>
-              El Shampoo A2 con Aloe y Avena Osspret es adecuado para todo tipo
-              de pieles ya que conserva la humedad sin engrasar la piel lo que
-              favorece el mantenimiento de una piel sana.
-            </p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Muñoz Osspret Pulguicida</h4>
-            <img
-              src="img/productos/Productos_Estetica_Higiene_4_1.jpeg"
-              alt="Productos_Estetica_Higiene_shampoo"
-            />
-            <p>$7.619,00</p>
-            <p>Pulguicida con amplia efectividad.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
-      </section>
-
-      <section class="Productos_Grupo_General">
-        <img src="img/productos/Productos_Snack.jpg" alt="Productos_Snack" />
-        <h2 class="Productos_Clipped">Productos_Grupo_General</h2>
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Snack_Secos.jpg"
-            alt="Productos_Snack_Secos"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>Cholitas | 500 Grs</h4>
-            <img
-              src="img/productos/Productos_Snack_1_1.jpeg"
-              alt="Productos_Snack_Secos"
-            />
-            <p>$2.884,00</p>
-            <p>Cholitas 500 Grs.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Dentastix Pedigree Razas Medianas 7 barras</h4>
-            <img
-              src="img/productos/Productos_Snack_2_1.jpeg"
-              alt="Productos_Snack_Secos"
-            />
-            <p>$2.132,00</p>
-            <p>Barras ideales para tus mascotas.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
-
-        <section class="Productos_Grupo_Particular">
-          <img
-            src="img/productos/Productos_Snack_Humedos.jpg"
-            alt="Productos_Snack_Humedos"
-          />
-          <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
-        </section>
-        <section class="Productos grid-container">
-          <h2 class="Productos_Clipped">Productos grid-container</h2>
-          <article class="Producto grid-item">
-            <h4>Golocan Bocaditos sabor Jamón Queso y Espinaca | 100Gr</h4>
-            <img
-              src="img/productos/Productos_Snack_3_1.jpeg"
-              alt="Productos_Snack_Humedos"
-            />
-            <p>$1.293,00</p>
-            <p>Golocan Boc JamQuesEsp x 100g.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-
-          <article class="Producto grid-item">
-            <h4>Golocan Bocaditos Tradicionales | 500gr</h4>
-            <img
-              src="img/productos/Productos_Snack_4_1.jpeg"
-              alt="Productos_Snack_Humedos"
-            />
-            <p>$5.579,00</p>
-            <p>Golocan Bocaditos Tradicionales.</p>
-            <a class="Producto_btn" href="">Añadir al carrito</a>
-          </article>
-        </section>
-      </section>
-
-      <section class="Productos_Notas_containerGrid">
-        <h2 class="Productos_Clipped">Notas_pie containerFlex</h2>
-
-        <article class="Productos_Nota_containerGridItem">
-          <i class="fa-solid fa-truck fa-2x"></i>
-          <h4>Envío gratis</h4>
-          <p>En compras mayores a $22000</p>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>Dogit Cama Rectangular Gris/Blanca 60x51x23</h4>
+          <img src="img/productos/Productos_Accesorios_1_1.jpeg" alt="Productos_Accesorios_Camas" />
+          <p>$83.906,00</p>
+          <p>
+            La cama con colchón Dogit es ideal para aquellos perros a los que
+            les encanta estirarse y tumbarse con total comodidad.
+          </p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
         </article>
 
-        <article class="Productos_Nota_containerGridItem">
-          <i class="fa-solid fa-cart-shopping fa-2x"></i>
-          <h4>Beneficios</h4>
-          <p>En todas tus compras</p>
+        <article class="Producto grid-item">
+          <h4>Cama para Ventana Zootec Gato</h4>
+          <img src="img/productos/Productos_Accesorios_13_1.jpeg" alt="Productos_Accesorios_Camas" />
+          <p>$29.984,00</p>
+          <p>Cama para Ventana Zootec Gato</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
         </article>
 
-        <article class="Productos_Nota_containerGridItem">
-          <i class="fa-regular fa-credit-card fa-2x"></i>
-          <h4>Todos los medios de pago</h4>
-          <p>Tarjetas de crédito, débito o efectivo</p>
-        </article>
-
-        <article class="Productos_Nota_containerGridItem">
-          <i class="fa-solid fa-location-dot fa-2x"></i>
-          <h4>Retiro en tienda</h4>
-          <p>Beneficios y regalos exclusivos</p>
+        <article class="Producto grid-item">
+          <h4>Puff Con Rascador de Gato</h4>
+          <img src="img/productos/Productos_Accesorios_14_1.jpeg" alt="Productos_Accesorios_Camas" />
+          <p>$24.700,00</p>
+          <p>
+            Puff para gatos con rascador relleno con vellón siliconado y
+            almohadon desmontable. 55cm de diámetro.
+          </p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
         </article>
       </section>
-    </main>
 
-    <!-- Pie de pagina -->
-    <footer class="footer">
-      <div class="social">
-        <a
-          class="facebook"
-          href="https://facebook.com"
-          title="Seguinos en Facebook"
-          target="_blank"
-        >
-        </a>
-        <a
-          class="instagram"
-          href="https://instagram.com"
-          title="Seguinos en Instagram"
-          target="_blank"
-        >
-        </a>
-        <a
-          class="github"
-          href="https://github.com/mwcastellan/tpo_nodejs_fron/tree/main"
-          title="Clona el repositorio en github"
-          target="_blank"
-        >
-        </a>
-        <a
-          class="whatsapp"
-          href="https://api.whatsapp.com/send?phone=110303456&text=Buenos%20dias,%20mi%20consulta%20es..."
-          title="Mensajeanos por Whatsapp"
-          target="_blank"
-        >
-        </a>
-      </div>
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Accesorios_Comederos-y-bebederos.jpg"
+          alt="Productos_Accesorios_Comederos-y-bebederos" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
+      </section>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>Millex Comedero Inoxidable N° 2</h4>
+          <img src="img/productos/Productos_Accesorios_2_1.jpeg" alt="Productos_Accesorios_Comederos-y-bebederos" />
+          <p>$5.303,00</p>
+          <p>Millex Comedero Inoxidable</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
 
-      <p class="footer">&copy; 2024 derechos reservados</p>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-  </body>
+        <article class="Producto grid-item">
+          <h4>Millex Comedero Standard</h4>
+          <img src="img/productos/Productos_Accesorios_3_1.jpeg" alt="Productos_Accesorios_Comederos-y-bebederos" />
+          <p>$5.538,00</p>
+          <p>Millex Comedero Standard</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Comelento Huella Pequeño</h4>
+          <img src="img/productos/Productos_Accesorios_4_1.jpeg" alt="Productos_Accesorios_Comederos-y-bebederos" />
+          <p>$4.066,00</p>
+          <p>Comelento Huella Pequeño</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Bebedero Dispenser Automático Portátil Con Comedero</h4>
+          <img src="img/productos/Productos_Accesorios_5_1.jpeg" alt="Productos_Accesorios_Comederos-y-bebederos" />
+          <p>$18.245,00</p>
+          <p>Bebedero Dispenser Automático</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+      </section>
+
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Accesorios_Indumentaria.jpg" alt="Productos_accesorios_perros-indumentaria" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
+      </section>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>GF Pets Patrol Puffer-Negra | L</h4>
+          <img src="img/productos/Productos_Accesorios_11_1.jpeg" alt="Productos_accesorios_perros-indumentaria" />
+          <p>$20.475,00</p>
+          <p>
+            Esta chaqueta GF PET cuenta con tecnología Elastofit. ¡Se expande
+            para adaptarse a la forma única de su perro y no más levantamiento
+            de piernas! Resistente al agua.
+          </p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Dixon Marvel Canguro</h4>
+          <img src="img/productos/Productos_Accesorios_12_1.jpeg" alt="Productos_accesorios_perros-indumentaria" />
+          <p>$12.544,00</p>
+          <p>
+            Puños elásticos para mejor ajuste, triple veltro para mayor
+            sujetación, elástico para piernas e impresión en serigrafía. Hecho
+            65% en polyester nylon y 35% en algodón.
+          </p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+      </section>
+    </section>
+
+    <section class="Productos_Grupo_General">
+      <img src="img/productos/Productos_Estetica_Higiene.jpg" alt="Productos_Estetica_Higiene" />
+      <h2 class="Productos_Clipped">Productos_Grupo_General</h2>
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Estetica_Higiene-cardina-cepillos-guantes.jpg"
+          alt="productos_estetica-higiene_perros-cardina-cepillos-guantes" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
+      </section>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>Can Cat Peine de Acero</h4>
+          <img src="img/productos/Productos_Estetica_Higiene_1_1.jpeg"
+            alt="productos_estetica-higiene_perros-cardina-cepillos-guantes" />
+          <p>$8.492,00</p>
+          <p>Can Cat Peine de Acero.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Cardina con Botón c/Acc Trimmer</h4>
+          <img src="img/productos/Productos_Estetica_Higiene_2_1.jpeg"
+            alt="productos_estetica-higiene_perros-cardina-cepillos-guantes" />
+          <p>$8.040,00</p>
+          <p>Cardina con Botón.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+      </section>
+
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Estetica_Higiene_shampoo.jpg" alt="Productos_Estetica_Higiene_shampoo" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
+      </section>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>Muñoz Shampoo Osspret Aloe-Avena x 250 ml.</h4>
+          <img src="img/productos/Productos_Estetica_Higiene_3_1.jpeg" alt="Productos_Estetica_Higiene_shampoo" />
+          <p>$7.510,00</p>
+          <p>
+            El Shampoo A2 con Aloe y Avena Osspret es adecuado para todo tipo
+            de pieles ya que conserva la humedad sin engrasar la piel lo que
+            favorece el mantenimiento de una piel sana.
+          </p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Muñoz Osspret Pulguicida</h4>
+          <img src="img/productos/Productos_Estetica_Higiene_4_1.jpeg" alt="Productos_Estetica_Higiene_shampoo" />
+          <p>$7.619,00</p>
+          <p>Pulguicida con amplia efectividad.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+      </section>
+    </section>
+
+    <section class="Productos_Grupo_General">
+      <img src="img/productos/Productos_Snack.jpg" alt="Productos_Snack" />
+      <h2 class="Productos_Clipped">Productos_Grupo_General</h2>
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Snack_Secos.jpg" alt="Productos_Snack_Secos" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
+      </section>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>Cholitas | 500 Grs</h4>
+          <img src="img/productos/Productos_Snack_1_1.jpeg" alt="Productos_Snack_Secos" />
+          <p>$2.884,00</p>
+          <p>Cholitas 500 Grs.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Dentastix Pedigree Razas Medianas 7 barras</h4>
+          <img src="img/productos/Productos_Snack_2_1.jpeg" alt="Productos_Snack_Secos" />
+          <p>$2.132,00</p>
+          <p>Barras ideales para tus mascotas.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+      </section>
+
+      <section class="Productos_Grupo_Particular">
+        <img src="img/productos/Productos_Snack_Humedos.jpg" alt="Productos_Snack_Humedos" />
+        <h2 class="Productos_Clipped">Productos_Grupo_Particular</h2>
+      </section>
+      <section class="Productos grid-container">
+        <h2 class="Productos_Clipped">Productos grid-container</h2>
+        <article class="Producto grid-item">
+          <h4>Golocan Bocaditos sabor Jamón Queso y Espinaca | 100Gr</h4>
+          <img src="img/productos/Productos_Snack_3_1.jpeg" alt="Productos_Snack_Humedos" />
+          <p>$1.293,00</p>
+          <p>Golocan Boc JamQuesEsp x 100g.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+
+        <article class="Producto grid-item">
+          <h4>Golocan Bocaditos Tradicionales | 500gr</h4>
+          <img src="img/productos/Productos_Snack_4_1.jpeg" alt="Productos_Snack_Humedos" />
+          <p>$5.579,00</p>
+          <p>Golocan Bocaditos Tradicionales.</p>
+          <a class="Producto_btn" href="">Añadir al carrito</a>
+        </article>
+      </section>
+    </section>
+
+    <section class="Productos_Notas_containerGrid">
+      <h2 class="Productos_Clipped">Notas_pie containerFlex</h2>
+
+      <article class="Productos_Nota_containerGridItem">
+        <i class="fa-solid fa-truck fa-2x"></i>
+        <h4>Envío gratis</h4>
+        <p>En compras mayores a $22000</p>
+      </article>
+
+      <article class="Productos_Nota_containerGridItem">
+        <i class="fa-solid fa-cart-shopping fa-2x"></i>
+        <h4>Beneficios</h4>
+        <p>En todas tus compras</p>
+      </article>
+
+      <article class="Productos_Nota_containerGridItem">
+        <i class="fa-regular fa-credit-card fa-2x"></i>
+        <h4>Todos los medios de pago</h4>
+        <p>Tarjetas de crédito, débito o efectivo</p>
+      </article>
+
+      <article class="Productos_Nota_containerGridItem">
+        <i class="fa-solid fa-location-dot fa-2x"></i>
+        <h4>Retiro en tienda</h4>
+        <p>Beneficios y regalos exclusivos</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Pie de pagina -->
+  <footer class="footer">
+    <div class="social">
+      <a class="facebook" href="https://facebook.com" title="Seguinos en Facebook" target="_blank">
+      </a>
+      <a class="instagram" href="https://instagram.com" title="Seguinos en Instagram" target="_blank">
+      </a>
+      <a class="github" href="https://github.com/mwcastellan/tpo_nodejs_fron/tree/main"
+        title="Clona el repositorio en github" target="_blank">
+      </a>
+      <a class="whatsapp"
+        href="https://api.whatsapp.com/send?phone=110303456&text=Buenos%20dias,%20mi%20consulta%20es..."
+        title="Mensajeanos por Whatsapp" target="_blank">
+      </a>
+    </div>
+
+    <p class="footer">&copy; 2024 derechos reservados</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
 </html>
