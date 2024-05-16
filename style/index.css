@@ -1,6 +1,6 @@
 body {
   /* background-color: rgb(35, 35, 30);*/
-  color: black; 
+  color: black;
 
   font-family: "Poppins", sans-serif;
 }
@@ -34,7 +34,7 @@ footer {
 } */
 header {
   grid-column: 1 / 7;
-} 
+}
 
 main {
   grid-column: 1/5;
@@ -44,8 +44,6 @@ aside {
   grid-column: 5/7;
   padding: 30px;
 }
-
-
 
 .Ubicacion {
   grid-column: 1 / 5;
@@ -63,12 +61,11 @@ aside {
   grid-column: 5 / 7;
 }
 
-.mapa iframe{
+.mapa iframe {
   width: 100%;
   height: auto;
   padding: 15px;
 }
-
 
 /* 
 footer {
