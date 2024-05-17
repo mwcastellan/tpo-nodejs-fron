@@ -128,3 +128,9 @@ input:focus {
   align-items: end;
   justify-self: right;
 }
+
+@media screen and (max-width: 1150px) {
+  main, aside, .Ubicacion, .mapa {
+      grid-column: 1 / 7;
+  }
+}

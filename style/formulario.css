@@ -10,12 +10,12 @@
 }
 
 input {
-  width: 100px;
+  width: 140px;
   height: 40px;
   display: flexbox;
   padding: 6px 6px;
   /* margin-right: 10%; */
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
