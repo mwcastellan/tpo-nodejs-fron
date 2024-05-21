@@ -11,7 +11,7 @@ div.imagen{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%; 
-    width: 30%;
+    width: 33%;
     height: auto;
     padding: 0 10px;
 }
@@ -116,7 +116,7 @@ div.imagen{
   }
 
 
-@media (max-width:850px){
+@media (max-width:930px){
     main{
         padding: 0;
     }
@@ -124,8 +124,13 @@ div.imagen{
         display: block;
         margin: 0 auto;
         padding: 10px ;
-        width: 80%;
+        width: 55%;
         height: auto;
 
     }
+    img.perro{
+        display: none;
+    }
+
 }
+
