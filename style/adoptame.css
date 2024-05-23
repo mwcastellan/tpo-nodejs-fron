@@ -134,3 +134,10 @@ div.imagen{
 
 }
 
+@media (max-width:450px){
+    .social a{
+        width: 48px;
+        height: 48px;
+    }
+
+}
