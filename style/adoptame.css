@@ -17,6 +17,14 @@ div.imagen{
 }
 
 
+ h2, article, h4, li{
+    padding-bottom: 10px;
+}
+li:last-child{
+    padding-bottom: 0px;
+}
+
+
 .requisitos{
     background-color: rgb(233, 215, 186);
     padding: 10px;
